@@ -1,0 +1,87 @@
+.info-container{
+    margin-top:90px; 
+    .info-elements{
+        display:flex !important;
+        .info-img{
+            padding:0;
+            margin-top:40px;
+            img{
+                border-radius: 15px 15px 0 15px;
+                height: 400px;
+                width:  400px;
+                margin-bottom:40px;
+                float:right;
+                box-shadow: 0 0 15px rgb(145, 56, 44);
+            }
+            
+        }
+        .info-text{
+            background-color: white;
+            margin-top: 100px;
+            padding:15px;
+            border-radius: 0 15px 15px 15px;
+            max-width:400px;
+            position:relative;
+            h2{
+                color: black;
+            }
+            p{
+                color:black;
+            
+            }
+            button{
+                position:absolute;
+                bottom:-20px;
+                left:145px;
+            }
+        }
+    }
+}
+
+.success-block{
+    position: absolute !important;
+    left: 54%;
+    top: 49%;
+    -webkit-transform: translate(-50%, -46%);
+    transform: translate(-50%, -46%);
+    h1{
+        color: #3e1741;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .success-block__box{
+        background-color: white;
+        border-radius: 15px;
+        padding:20px;
+        .far{
+           color: #9b689e; 
+           font-size: 78px;
+            display: block;
+            margin: 40px 0;
+            text-align: center;
+        }
+        p{
+            padding: 0;
+            max-width: 80%;
+            margin: 0 auto;
+            font-size: 22px;
+            text-align: center;
+            color: #532c55;
+        }
+        .btn-close{
+            background-color: #9b689e;
+            border-radius: 50px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            height: 70px;
+            width: 180px;
+            font-size: 25px;
+            margin: 40px auto 20px auto;
+            display: block;
+        }
+    }
+
+}

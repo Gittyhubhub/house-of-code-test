@@ -1,0 +1,24 @@
+.main-navigation{
+    a{
+        font-size: 15px;
+        img{
+            width: 200px;
+            margin-top: 35px;
+            margin-left: -50px;
+        }
+    }
+    .nav{
+        .nav-item{
+            .nav-link{
+                color: #F1D8F2;
+                font-size: 15px;
+                margin-top: -50px;
+                &.active{
+                    color:#3e1741;
+                    font-weight: 700;
+                    text-shadow: 0 3px 30px #3e1741;
+                }
+                }
+            }
+        }
+    }

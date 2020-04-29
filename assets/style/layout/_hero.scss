@@ -1,0 +1,30 @@
+.hero-section{
+    background-image: url('../img/bghouseofcode.png');
+    
+    .hero{
+        margin-top:10vh;
+        h1{
+            color: #47054a;
+            font-weight: 700;
+            font-size: 70px;
+            margin-top: 10px;
+            font-family: 'Open Sans', sans-serif;
+            padding: 22px;
+        }
+        p{
+            margin-top: 10px;
+            // margin-left: 270px;
+            color:#F1D8F2;
+            font-size: 18px;
+            padding: 22px;
+        }
+        img{
+            // margin-top: 90px;
+            height: 600px;
+            width: 100%;
+        }
+    }
+}
+.hero-section-full{
+    min-height:120vh;
+}
