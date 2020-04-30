@@ -1,5 +1,15 @@
 .footer{
     background-color: #5c245f;
+    position: relative;
+    padding-top: 150px;
+    #reversedCurve{
+        position: absolute;
+        top: -25px;
+        width: 100%;
+        path{
+            fill: #f9f9f9;
+        }
+    }
     ul{
         li{
          color: #b092b1;

@@ -14,18 +14,48 @@
             font-weight: 500;
         }
         .card{
-            margin-top: 70px;
             background-color: white;
             border-radius: 15px;
             border: none;
-            h2{
-                color: #47054a;
-                font-size: 30px;
-                font-weight: 500;
-                margin-top: 10px;
-                margin-left: 15px;
-                margin-bottom: 40px;
+            height:100%;
+           
+            .card-header{
+                background: none;
+                border-bottom: none;
+                position: relative;
+                h2{
+                    color: #47054a;
+                    font-size: 30px;
+                    font-weight: 500;
+                    margin-top: 10px;
+                    margin-left: 15px;
+                    margin-bottom: 40px;
+                    z-index: 10;
+                    position: relative;
+                }
+                .pricing-svg{
+                    position: absolute;
+                    top:0;
+                    right: 0;
+                }
+                #small{
+                    height: auto;
+                    width: 50%;
+                }
+                #medium{
+                    height: auto;
+                    width: 65%;
+                }
+                #large{
+                    height: auto;
+                    width: 88%;
+                }
+                #enterprise{
+                    height: auto;
+                    width: 100%;
+                }
             }
+            
             ul{
                 font-size: 17px;
                 margin-left: -5px;
@@ -46,8 +76,8 @@
                 width: 230px;
                 margin: 0 auto;
                 padding: 7px;
-                margin-bottom: 14px;
-                margin-top: 80px;
+                margin-bottom: 20px;
+                margin-top: auto;
                 span:first-child{
                     color:#c09dc1;
                 }
